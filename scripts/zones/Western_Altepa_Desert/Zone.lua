@@ -4,12 +4,14 @@
 --
 -----------------------------------
 package.loaded["scripts/zones/Western_Altepa_Desert/TextIDs"] = nil;
+package.loaded["scripts/globals/chocobo_digging"] = nil;
 -----------------------------------
 
 require("scripts/zones/Western_Altepa_Desert/TextIDs");
 require("scripts/globals/icanheararainbow");
 require("scripts/globals/weather");
 require("scripts/globals/zone");
+require("scripts/globals/chocobo_digging");
 
 -----------------------------------
 -- Chocobo Digging vars

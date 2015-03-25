@@ -4,11 +4,13 @@
 --
 -----------------------------------
 package.loaded["scripts/zones/Bhaflau_Thickets/TextIDs"] = nil;
+package.loaded["scripts/globals/chocobo_digging"] = nil;
 -----------------------------------
 
 require("scripts/globals/settings");
 require("scripts/globals/zone");
 require("scripts/zones/Bhaflau_Thickets/TextIDs");
+require("scripts/globals/chocobo_digging");
 
 -----------------------------------
 -- Chocobo Digging vars

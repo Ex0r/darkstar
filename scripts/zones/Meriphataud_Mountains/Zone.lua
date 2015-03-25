@@ -4,12 +4,14 @@
 --
 -----------------------------------
 package.loaded["scripts/zones/Meriphataud_Mountains/TextIDs"] = nil;
+package.loaded["scripts/globals/chocobo_digging"] = nil;
 -----------------------------------
 
 require("scripts/zones/Meriphataud_Mountains/TextIDs");
 require("scripts/globals/icanheararainbow");
 require("scripts/globals/zone");
 require("scripts/globals/conquest");
+require("scripts/globals/chocobo_digging");
 
 -----------------------------------
 -- Chocobo Digging vars
